@@ -1,0 +1,45 @@
+\documentclass[notitlepage]{article}
+\usepackage[T1, T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+%
+%\usepackage{newtxmath}
+%\usepackage {fouriernc} %bold
+%\usepackage{kpfonts}
+%%
+%\usepackage{gentium}
+%\usepackage[default]{droidserif}
+%\usepackage{XCharter} %bold
+%
+\usepackage{import}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{tikz, enumerate, graphicx, amsmath, amssymb, amsthm}
+\let\epsilon\varepsilon
+\DeclareMathOperator{\conv}{Conv}
+\DeclareMathOperator{\expect}{\mathbb{E}}
+\DeclareMathOperator{\res}{Res}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator{\N}{\mathcal{N}}
+\DeclareMathOperator{\KL}{KL}
+\DeclareMathOperator{\cov}{cov}
+\DeclareMathOperator{\const}{const}
+\DeclareMathOperator{\cat}{Cat}
+\DeclareMathOperator{\diag}{diag}
+
+%\usepackage[paperwidth=13.33in,paperheight=7.5in,margin=1in,heightrounded]{geometry}
+\title{Проект по курсу ``Эффективные модели ML и архитектуры нейросетей''}
+\author{Иван Ермаков\\
+        М05-314а}
+\date{}
+\begin{document}
+\maketitle
+\input{chapters/intro}
+\input{chapters/related.tex}
+\input{chapters/methods.tex}
+\input{chapters/experiments}
+\input{chapters/conclusion.tex}
+
+\bibliographystyle{unsrt}
+\bibliography{references}
+\end{document}
