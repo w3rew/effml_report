@@ -8,3 +8,6 @@
     python -m venv venv
     source venv/bin/activate
 ```
+
+После запуска появится текстовый файл `cka.txt` с сохранёнными в ходе обучения значениями `cka` и `val_accuracy`.
+По нему дальше строятся графики, используя ноутбук `plots.ipynb`.
